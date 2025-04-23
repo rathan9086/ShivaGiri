@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Housewarming Invitation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>You're Invited!</h1>
+    <p class="highlight">To our Housewarming Ceremony</p>
+
+    <div class="details">
+      <p><strong>Hosted by:</strong> Rathan & Family</p>
+      <p><strong>Date:</strong> May 15, 2025</p>
+      <p><strong>Time:</strong> 10:30 AM onwards</p>
+      <p><strong>Location:</strong> Pamboor Belle, Udupi, Karnataka</p>
+      <p><a href="https://www.google.com/maps" target="_blank">View on Google Maps</a></p>
+    </div>
+
+    <hr/>
+
+    <h2>Our New Home</h2>
+    <div class="gallery">
+      <img src="house1.jpg" alt="House photo 1">
+      <img src="house2.jpg" alt="House photo 2">
+    </div>
+
+    <hr/>
+
+    <h2>RSVP</h2>
+    <form action="https://formspree.io/f/yourID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Message or No. of people attending" required></textarea>
+      <button type="submit">Send RSVP</button>
+    </form>
+
+    <p class="footer">We look forward to your presence and blessings!</p>
+  </div>
+</body>
+</html>
